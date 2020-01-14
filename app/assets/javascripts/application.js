@@ -14,3 +14,10 @@
 //= require activestorage
 //= require turbolinks
 //= require_tree .
+
+//Bootstrap tooltips and popovers depend on popper.js for positioning.
+//The bootstrap gem already depends on the popper_js gem.
+// Read (https://github.com/twbs/bootstrap-rubygem) for details
+//= require jquery3
+//= require popper
+//= require bootstrap-sprockets
