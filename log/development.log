@@ -656,3 +656,160 @@ Processing by WelcomeController#index as HTML
 Completed 200 OK in 4138ms (Views: 4132.6ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for 127.0.0.1 at 2020-01-19 00:19:26 -0800
+  [1m[35m (1.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/steventat/.rbenv/versions/2.3.7/lib/ruby/gems/2.3.0/gems/activerecord-5.2.4.1/lib/active_record/log_subscriber.rb:98
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 1313ms (Views: 1296.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-01-19 00:19:29 -0800
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 241ms (Views: 236.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-01-19 00:25:19 -0800
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (42.6ms)
+Completed 200 OK in 165ms (Views: 161.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-01-19 00:25:51 -0800
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 136ms (Views: 130.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-01-19 00:26:08 -0800
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 111ms (Views: 106.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-01-19 00:26:39 -0800
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (185.1ms)
+Completed 500 Internal Server Error in 195ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `submit' for #<#<Class:0x00007f8e1ae5db70>:0x00007f8e1ab890e8>
+Did you mean?  submit_tag):
+    23:     <%= label_tag(:q, "Message") %>
+    24:     <%= text_field_tag(:q) %>
+    25:     <%= text_area :body, size: "60x12" %>
+    26:     <%= submit ("Send") %>
+    27:   <% end %>
+    28: </div>
+  
+app/views/welcome/index.html.erb:26:in `block in _app_views_welcome_index_html_erb__4591381960047054344_70124155214040'
+app/views/welcome/index.html.erb:22:in `_app_views_welcome_index_html_erb__4591381960047054344_70124155214040'
+Started GET "/" for 127.0.0.1 at 2020-01-19 00:26:54 -0800
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (163.2ms)
+Completed 500 Internal Server Error in 173ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `submit' for #<#<Class:0x00007f8e1ae5db70>:0x00007f8e1d6a60f0>
+Did you mean?  submit_tag):
+    23:     <%= label_tag(:q, "Message") %>
+    24:     <%= text_field_tag(:q) %>
+    25:     <%= text_area :body, size: "60x12" %>
+    26:     <%= submit "Send" %>
+    27:   <% end %>
+    28: </div>
+  
+app/views/welcome/index.html.erb:26:in `block in _app_views_welcome_index_html_erb__4591381960047054344_70124177798460'
+app/views/welcome/index.html.erb:22:in `_app_views_welcome_index_html_erb__4591381960047054344_70124177798460'
+Started GET "/" for 127.0.0.1 at 2020-01-19 00:28:43 -0800
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 132ms (Views: 126.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-01-19 00:29:44 -0800
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (312.7ms)
+Completed 500 Internal Server Error in 324ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `body' for #<#<Class:0x00007f8e1ae5db70>:0x00007f8e1e07a658>):
+    21: 
+    22:   <%= form_with model: @message do %>
+    23:     <%= label_tag(:body, "Message") %>
+    24:     <%= text_field_tag(body) %>
+    25:     <%= submit_tag("Send") %>
+    26:   <% end %>
+    27: </div>
+  
+app/views/welcome/index.html.erb:24:in `block in _app_views_welcome_index_html_erb__4591381960047054344_70124182953780'
+app/views/welcome/index.html.erb:22:in `_app_views_welcome_index_html_erb__4591381960047054344_70124182953780'
+Started GET "/" for 127.0.0.1 at 2020-01-19 00:29:52 -0800
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 218ms (Views: 213.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-01-19 00:29:59 -0800
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 129ms (Views: 119.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-01-19 00:30:02 -0800
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 115ms (Views: 111.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-01-19 00:30:11 -0800
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 127ms (Views: 120.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-01-19 00:31:15 -0800
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (38.7ms)
+Completed 200 OK in 157ms (Views: 152.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-01-19 00:31:49 -0800
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 108ms (Views: 103.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-01-19 01:05:59 -0800
+Processing by ChatsController#show as HTML
+  Rendering chats/show.html.erb within layouts/application
+  Rendered chats/show.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 4767ms (Views: 4753.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-01-19 01:07:24 -0800
+Processing by ChatsController#show as HTML
+  Rendering chats/show.html.erb within layouts/application
+  Rendered chats/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 174ms (Views: 170.2ms | ActiveRecord: 0.0ms)
+
+
