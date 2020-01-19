@@ -20,4 +20,12 @@
         </div>
     </div>
   </div>
+
+
+
+  <%= form_with model: @message do %>
+    <%= label_tag(:q, "Message") %>
+    <%= text_field_tag(:q) %>
+    <%= submit_tag("Send") %>
+  <% end %>
 </div>
