@@ -813,3 +813,607 @@ Processing by ChatsController#show as HTML
 Completed 200 OK in 174ms (Views: 170.2ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for 127.0.0.1 at 2020-01-19 01:42:11 -0800
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/steventat/.rbenv/versions/2.3.7/lib/ruby/gems/2.3.0/gems/activerecord-5.2.4.1/lib/active_record/log_subscriber.rb:98
+Processing by ChatsController#show as HTML
+  Rendering chats/show.html.erb within layouts/application
+  Rendered chats/show.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 1423ms (Views: 1405.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-01-19 01:42:16 -0800
+Processing by ChatsController#show as HTML
+  Rendering chats/show.html.erb within layouts/application
+  Rendered chats/show.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 152ms (Views: 147.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-01-19 01:42:20 -0800
+Processing by ChatsController#show as HTML
+  Rendering chats/show.html.erb within layouts/application
+  Rendered chats/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 118ms (Views: 114.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-01-19 15:05:12 -0800
+  [1m[35m (1.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/steventat/.rbenv/versions/2.3.7/lib/ruby/gems/2.3.0/gems/activerecord-5.2.4.1/lib/active_record/log_subscriber.rb:98
+Processing by ChatsController#show as HTML
+  Rendering chats/show.html.erb within layouts/application
+  Rendered chats/show.html.erb within layouts/application (3.3ms)
+Completed 500 Internal Server Error in 8894ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Error: Undefined variable: "$action-color".
+        on line 6:21 of app/assets/stylesheets/base/_buttons.scss
+>>   background-color: $action-color;
+
+   --------------------^
+):
+     5:     <%= csrf_meta_tags %>
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:   </head>
+    11: 
+  
+app/assets/stylesheets/base/_buttons.scss:6
+app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb__1782770863209392767_70237812589260'
+Started GET "/" for 127.0.0.1 at 2020-01-19 15:09:16 -0800
+Processing by ChatsController#show as HTML
+  Rendering chats/show.html.erb within layouts/application
+  Rendered chats/show.html.erb within layouts/application (0.4ms)
+Completed 500 Internal Server Error in 3610ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Error: Undefined variable: "$action-color".
+        on line 6:21 of app/assets/stylesheets/bourbon/base/_buttons.scss
+>>   background-color: $action-color;
+
+   --------------------^
+):
+     5:     <%= csrf_meta_tags %>
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:   </head>
+    11: 
+  
+app/assets/stylesheets/bourbon/base/_buttons.scss:6
+app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb__1782770863209392767_70237779410400'
+Started GET "/" for 127.0.0.1 at 2020-01-19 15:09:44 -0800
+Processing by ChatsController#show as HTML
+  Rendering chats/show.html.erb within layouts/application
+  Rendered chats/show.html.erb within layouts/application (0.4ms)
+Completed 500 Internal Server Error in 383ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Error: File to import not found or unreadable: app/assets/stylesheets/bourbon/bourbon/base/base.
+        on line 22:1 of app/assets/stylesheets/application.scss
+>> @import 'app/assets/stylesheets/bourbon/bourbon/base/base';
+
+   ^
+):
+     5:     <%= csrf_meta_tags %>
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:   </head>
+    11: 
+  
+app/assets/stylesheets/application.scss:22
+app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb__1782770863209392767_70237813340260'
+Started GET "/" for 127.0.0.1 at 2020-01-19 15:10:07 -0800
+Processing by ChatsController#show as HTML
+  Rendering chats/show.html.erb within layouts/application
+  Rendered chats/show.html.erb within layouts/application (0.9ms)
+Completed 500 Internal Server Error in 70ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Error: Undefined variable: "$action-color".
+        on line 6:21 of app/assets/stylesheets/base/_buttons.scss
+>>   background-color: $action-color;
+
+   --------------------^
+):
+     5:     <%= csrf_meta_tags %>
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:   </head>
+    11: 
+  
+app/assets/stylesheets/base/_buttons.scss:6
+app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb__1782770863209392767_70237813536700'
+Started GET "/" for 127.0.0.1 at 2020-01-19 15:14:58 -0800
+Processing by ChatsController#show as HTML
+  Rendering chats/show.html.erb within layouts/application
+  Rendered chats/show.html.erb within layouts/application (0.6ms)
+Completed 500 Internal Server Error in 2892ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Error: Undefined variable: "$action-color".
+        on line 6:21 of app/assets/stylesheets/base/_buttons.scss
+>>   background-color: $action-color;
+
+   --------------------^
+):
+     5:     <%= csrf_meta_tags %>
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:   </head>
+    11: 
+  
+app/assets/stylesheets/base/_buttons.scss:6
+app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb__1782770863209392767_70237812288740'
+Started GET "/" for 127.0.0.1 at 2020-01-19 15:15:07 -0800
+Processing by ChatsController#show as HTML
+  Rendering chats/show.html.erb within layouts/application
+  Rendered chats/show.html.erb within layouts/application (0.6ms)
+Completed 500 Internal Server Error in 39ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Error: Undefined variable: "$action-color".
+        on line 6:21 of app/assets/stylesheets/base/_buttons.scss
+>>   background-color: $action-color;
+
+   --------------------^
+):
+     5:     <%= csrf_meta_tags %>
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:   </head>
+    11: 
+  
+app/assets/stylesheets/base/_buttons.scss:6
+app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb__1782770863209392767_70237780035700'
+Started GET "/" for 127.0.0.1 at 2020-01-19 15:16:08 -0800
+Processing by ChatsController#show as HTML
+  Rendering chats/show.html.erb within layouts/application
+  Rendered chats/show.html.erb within layouts/application (0.8ms)
+Completed 500 Internal Server Error in 12939ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Error: Undefined variable: "$-buttons-list".
+        on line 27:30 of app/assets/stylesheets/bourbon/bourbon/library/_buttons.scss
+>> $all-buttons: _assign-inputs($_buttons-list);
+
+   -----------------------------^
+):
+     5:     <%= csrf_meta_tags %>
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:   </head>
+    11: 
+  
+app/assets/stylesheets/bourbon/bourbon/library/_buttons.scss:27
+app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb__1782770863209392767_70237814292860'
+Started GET "/" for 127.0.0.1 at 2020-01-19 15:26:29 -0800
+Processing by ChatsController#show as HTML
+  Rendering chats/show.html.erb within layouts/application
+  Rendered chats/show.html.erb within layouts/application (0.6ms)
+Completed 500 Internal Server Error in 124ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Error: Undefined variable: "$-buttons-list".
+        on line 27:30 of app/assets/stylesheets/bourbon/bourbon/library/_buttons.scss
+>> $all-buttons: _assign-inputs($_buttons-list);
+
+   -----------------------------^
+):
+     5:     <%= csrf_meta_tags %>
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:   </head>
+    11: 
+  
+app/assets/stylesheets/bourbon/bourbon/library/_buttons.scss:27
+app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb__1782770863209392767_70237786861040'
+Started GET "/" for 127.0.0.1 at 2020-01-19 15:34:21 -0800
+Processing by ChatsController#show as HTML
+  Rendering chats/show.html.erb within layouts/application
+  Rendered chats/show.html.erb within layouts/application (3.6ms)
+Completed 500 Internal Server Error in 2375ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Error: Undefined variable: "$-buttons-list".
+        on line 27:30 of app/assets/stylesheets/bourbon/bourbon/library/_buttons.scss
+>> $all-buttons: _assign-inputs($_buttons-list);
+
+   -----------------------------^
+):
+     5:     <%= csrf_meta_tags %>
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:   </head>
+    11: 
+  
+app/assets/stylesheets/bourbon/bourbon/library/_buttons.scss:27
+app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb__1782770863209392767_70237840439460'
+Started GET "/" for 127.0.0.1 at 2020-01-19 15:53:14 -0800
+Processing by ChatsController#show as HTML
+  Rendering chats/show.html.erb within layouts/application
+  Rendered chats/show.html.erb within layouts/application (3.2ms)
+Completed 500 Internal Server Error in 2322ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Error: Undefined variable: "$-buttons-list".
+        on line 27:30 of app/assets/stylesheets/bourbon/bourbon/library/_buttons.scss
+>> $all-buttons: _assign-inputs($_buttons-list);
+
+   -----------------------------^
+):
+     5:     <%= csrf_meta_tags %>
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:   </head>
+    11: 
+  
+app/assets/stylesheets/bourbon/bourbon/library/_buttons.scss:27
+app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb__1782770863209392767_70237861731240'
+Started GET "/" for 127.0.0.1 at 2020-01-19 15:59:43 -0800
+Processing by ChatsController#show as HTML
+  Rendering chats/show.html.erb within layouts/application
+  Rendered chats/show.html.erb within layouts/application (0.5ms)
+Completed 500 Internal Server Error in 2853ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Error: Undefined variable: "$-buttons-list".
+        on line 27:30 of app/assets/stylesheets/bourbon/bourbon/library/_buttons.scss
+>> $all-buttons: _assign-inputs($_buttons-list);
+
+   -----------------------------^
+):
+     5:     <%= csrf_meta_tags %>
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:   </head>
+    11: 
+  
+app/assets/stylesheets/bourbon/bourbon/library/_buttons.scss:27
+app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb__1782770863209392767_70237814364700'
+Started GET "/" for 127.0.0.1 at 2020-01-19 21:53:35 -0800
+Processing by ChatsController#show as HTML
+  Rendering chats/show.html.erb within layouts/application
+  Rendered chats/show.html.erb within layouts/application (1.6ms)
+Completed 500 Internal Server Error in 15530ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Error: Undefined variable: "$-text-inputs-list".
+        on line 39:34 of app/assets/stylesheets/bourbon/bourbon/library/_text-inputs.scss
+>> $all-text-inputs: _assign-inputs($_text-inputs-list);
+
+   ---------------------------------^
+):
+     5:     <%= csrf_meta_tags %>
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:   </head>
+    11: 
+  
+app/assets/stylesheets/bourbon/bourbon/library/_text-inputs.scss:39
+app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb__1782770863209392767_70237843482800'
+Started GET "/" for 127.0.0.1 at 2020-01-19 21:56:27 -0800
+Processing by ChatsController#show as HTML
+  Rendering chats/show.html.erb within layouts/application
+  Rendered chats/show.html.erb within layouts/application (0.8ms)
+Completed 500 Internal Server Error in 6166ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Error: Undefined variable: "$major-third".
+        on line 35:26 of app/assets/stylesheets/bourbon/bourbon/settings/_settings.scss
+>>   "modular-scale-ratio": $major-third,
+
+   -------------------------^
+):
+     5:     <%= csrf_meta_tags %>
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:   </head>
+    11: 
+  
+app/assets/stylesheets/bourbon/bourbon/settings/_settings.scss:35
+app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb__1782770863209392767_70237861031360'
+Started GET "/" for 127.0.0.1 at 2020-01-19 21:57:42 -0800
+Processing by ChatsController#show as HTML
+  Rendering chats/show.html.erb within layouts/application
+  Rendered chats/show.html.erb within layouts/application (0.5ms)
+Completed 500 Internal Server Error in 1893ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Error: File to import not found or unreadable: app/assets/stylesheets/bourbon/bourbon/helpers/buttons-list.
+        on line 6:1 of app/assets/stylesheets/bourbon/bourbon/_bourbon.scss
+>> @import "app/assets/stylesheets/bourbon/bourbon/helpers/buttons-list";
+
+   ^
+):
+     5:     <%= csrf_meta_tags %>
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:   </head>
+    11: 
+  
+app/assets/stylesheets/bourbon/bourbon/_bourbon.scss:6
+app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb__1782770863209392767_70237812837160'
+Started GET "/" for 127.0.0.1 at 2020-01-19 21:58:00 -0800
+Processing by ChatsController#show as HTML
+  Rendering chats/show.html.erb within layouts/application
+  Rendered chats/show.html.erb within layouts/application (0.8ms)
+Completed 500 Internal Server Error in 1817ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Error: File to import not found or unreadable: app/assets/stylesheets/bourbon/bourbon/helpers/buttons-list.
+        on line 6:1 of app/assets/stylesheets/bourbon/bourbon/_bourbon.scss
+>> @import "app/assets/stylesheets/bourbon/bourbon/helpers/buttons-list";
+
+   ^
+):
+     5:     <%= csrf_meta_tags %>
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:   </head>
+    11: 
+  
+app/assets/stylesheets/bourbon/bourbon/_bourbon.scss:6
+app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb__1782770863209392767_70237861778800'
+Started GET "/" for 127.0.0.1 at 2020-01-19 21:58:59 -0800
+Processing by ChatsController#show as HTML
+  Rendering chats/show.html.erb within layouts/application
+  Rendered chats/show.html.erb within layouts/application (0.5ms)
+Completed 500 Internal Server Error in 159ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Error: Undefined variable: "$major-third".
+        on line 35:26 of app/assets/stylesheets/bourbon/bourbon/settings/_settings.scss
+>>   "modular-scale-ratio": $major-third,
+
+   -------------------------^
+):
+     5:     <%= csrf_meta_tags %>
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:   </head>
+    11: 
+  
+app/assets/stylesheets/bourbon/bourbon/settings/_settings.scss:35
+app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb__1782770863209392767_70237841444200'
+Started GET "/" for 127.0.0.1 at 2020-01-19 22:02:27 -0800
+Processing by ChatsController#show as HTML
+  Rendering chats/show.html.erb within layouts/application
+  Rendered chats/show.html.erb within layouts/application (0.5ms)
+Completed 500 Internal Server Error in 2920ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Error: Undefined variable: "$major-third".
+        on line 36:26 of app/assets/stylesheets/bourbon/bourbon/settings/_settings.scss
+>>   "modular-scale-ratio": $major-third,
+
+   -------------------------^
+):
+     5:     <%= csrf_meta_tags %>
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:   </head>
+    11: 
+  
+app/assets/stylesheets/bourbon/bourbon/settings/_settings.scss:36
+app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb__1782770863209392767_70237849062260'
+Started GET "/" for 127.0.0.1 at 2020-01-19 23:44:10 -0800
+Processing by ChatsController#show as HTML
+  Rendering chats/show.html.erb within layouts/application
+  Rendered chats/show.html.erb within layouts/application (3.8ms)
+Completed 500 Internal Server Error in 2496ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Error: File to import not found or unreadable: app/assets/stylesheets/base/bourbonesheets/base/bourbon/helpers/buttons-list.
+        on line 2:1 of app/assets/stylesheets/bourbon/library/_buttons.scss
+        from line 33:1 of app/assets/stylesheets/bourbon/_bourbon.scss
+>> @import "app/assets/stylesheets/base/bourbonesheets/base/bourbon/helpers/but
+   ^
+):
+     5:     <%= csrf_meta_tags %>
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:   </head>
+    11: 
+  
+app/assets/stylesheets/bourbon/library/_buttons.scss:2
+app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb__1782770863209392767_70237851086140'
+Started GET "/" for 127.0.0.1 at 2020-01-19 23:45:23 -0800
+Processing by ChatsController#show as HTML
+  Rendering chats/show.html.erb within layouts/application
+  Rendered chats/show.html.erb within layouts/application (0.9ms)
+Completed 500 Internal Server Error in 7263ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Error: Undefined variable: "$-buttons-list".
+        on line 27:30 of app/assets/stylesheets/bourbon/library/_buttons.scss
+>> $all-buttons: _assign-inputs($_buttons-list);
+
+   -----------------------------^
+):
+     5:     <%= csrf_meta_tags %>
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:   </head>
+    11: 
+  
+app/assets/stylesheets/bourbon/library/_buttons.scss:27
+app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb__1782770863209392767_70237843962040'
+Started GET "/" for 127.0.0.1 at 2020-01-19 23:48:29 -0800
+Processing by ChatsController#show as HTML
+  Rendering chats/show.html.erb within layouts/application
+  Rendered chats/show.html.erb within layouts/application (0.7ms)
+Completed 500 Internal Server Error in 2363ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Error: An @import loop has been found:
+           app/assets/stylesheets/bourbon/_bourbon.scss imports app/assets/stylesheets/bourbon/library/_buttons.scss
+        on line 3:1 of app/assets/stylesheets/bourbon/library/_buttons.scss
+        from line 33:1 of app/assets/stylesheets/bourbon/_bourbon.scss
+>> // Bourbon 6.0.0
+
+   ^
+):
+     5:     <%= csrf_meta_tags %>
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:   </head>
+    11: 
+  
+app/assets/stylesheets/bourbon/_bourbon.scss:1
+app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb__1782770863209392767_70237843910940'
+Started GET "/" for 127.0.0.1 at 2020-01-20 21:47:49 -0800
+  [1m[35m (2.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/steventat/.rbenv/versions/2.3.7/lib/ruby/gems/2.3.0/gems/activerecord-5.2.4.1/lib/active_record/log_subscriber.rb:98
+Processing by ChatsController#show as HTML
+  Rendering chats/show.html.erb within layouts/application
+  Rendered chats/show.html.erb within layouts/application (4.4ms)
+Completed 500 Internal Server Error in 2571ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Error: An @import loop has been found:
+           app/assets/stylesheets/bourbon/_bourbon.scss imports app/assets/stylesheets/bourbon/library/_buttons.scss
+        on line 3:1 of app/assets/stylesheets/bourbon/library/_buttons.scss
+        from line 33:1 of app/assets/stylesheets/bourbon/_bourbon.scss
+>> // Bourbon 6.0.0
+
+   ^
+):
+     5:     <%= csrf_meta_tags %>
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:   </head>
+    11: 
+  
+app/assets/stylesheets/bourbon/_bourbon.scss:1
+app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb__4552021236044551447_70364938184800'
+Started GET "/" for 127.0.0.1 at 2020-01-20 21:49:14 -0800
+Processing by ChatsController#show as HTML
+  Rendering chats/show.html.erb within layouts/application
+  Rendered chats/show.html.erb within layouts/application (0.4ms)
+Completed 500 Internal Server Error in 15563ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Error: Undefined variable: "$-text-inputs-list".
+        on line 39:34 of app/assets/stylesheets/bourbon/library/_text-inputs.scss
+>> $all-text-inputs: _assign-inputs($_text-inputs-list);
+
+   ---------------------------------^
+):
+     5:     <%= csrf_meta_tags %>
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:   </head>
+    11: 
+  
+app/assets/stylesheets/bourbon/library/_text-inputs.scss:39
+app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb__4552021236044551447_70364965487160'
+Started GET "/" for 127.0.0.1 at 2020-01-20 21:50:00 -0800
+Processing by ChatsController#show as HTML
+  Rendering chats/show.html.erb within layouts/application
+  Rendered chats/show.html.erb within layouts/application (0.4ms)
+Completed 500 Internal Server Error in 6229ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Error: Undefined variable: "$major-third".
+        on line 35:26 of app/assets/stylesheets/bourbon/settings/_settings.scss
+>>   "modular-scale-ratio": $major-third,
+
+   -------------------------^
+):
+     5:     <%= csrf_meta_tags %>
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:   </head>
+    11: 
+  
+app/assets/stylesheets/bourbon/settings/_settings.scss:35
+app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb__4552021236044551447_70364939901500'
+Started GET "/" for 127.0.0.1 at 2020-01-20 21:51:24 -0800
+Processing by ChatsController#show as HTML
+  Rendering chats/show.html.erb within layouts/application
+  Rendered chats/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 16205ms (Views: 16200.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-01-20 21:51:56 -0800
+Processing by ChatsController#show as HTML
+  Rendering chats/show.html.erb within layouts/application
+  Rendered chats/show.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 268ms (Views: 263.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-01-20 21:51:58 -0800
+Processing by ChatsController#show as HTML
+  Rendering chats/show.html.erb within layouts/application
+  Rendered chats/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 255ms (Views: 251.9ms | ActiveRecord: 0.0ms)
+
+
