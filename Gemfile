@@ -42,7 +42,11 @@ gem 'bootstrap', '~> 4.4.1'
 # Bootstrap Javascript depends on jQuery.
 gem 'jquery-rails'
 
+# Bourbon styles
 gem 'bourbon', '~> 5.0'
+
+# Adds Clearance installer
+gem 'clearance'
 
 
 group :development, :test do
