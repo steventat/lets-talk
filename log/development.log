@@ -1535,3 +1535,102 @@ Processing by Clearance::SessionsController#new as HTML
 Completed 200 OK in 290ms (Views: 288.5ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for 127.0.0.1 at 2020-01-25 16:25:58 -0800
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/steventat/.rbenv/versions/2.3.7/lib/ruby/gems/2.3.0/gems/activerecord-5.2.4.1/lib/active_record/log_subscriber.rb:98
+Processing by ChatsController#show as HTML
+Redirected to http://0.0.0.0:3000/sign_in
+Filter chain halted as :require_login rendered or redirected
+Completed 302 Found in 45ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/sign_in" for 127.0.0.1 at 2020-01-25 16:25:59 -0800
+Processing by Clearance::SessionsController#new as HTML
+  Rendering /Users/steventat/.rbenv/versions/2.3.7/lib/ruby/gems/2.3.0/gems/clearance-1.17.0/app/views/sessions/new.html.erb within layouts/application
+  Rendered /Users/steventat/.rbenv/versions/2.3.7/lib/ruby/gems/2.3.0/gems/clearance-1.17.0/app/views/sessions/_form.html.erb (50.2ms)
+  Rendered /Users/steventat/.rbenv/versions/2.3.7/lib/ruby/gems/2.3.0/gems/clearance-1.17.0/app/views/sessions/new.html.erb within layouts/application (84.5ms)
+Completed 200 OK in 5777ms (Views: 5775.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sign_in" for 127.0.0.1 at 2020-01-25 16:27:13 -0800
+Processing by Clearance::SessionsController#new as HTML
+  Rendering /Users/steventat/.rbenv/versions/2.3.7/lib/ruby/gems/2.3.0/gems/clearance-1.17.0/app/views/sessions/new.html.erb within layouts/application
+  Rendered /Users/steventat/.rbenv/versions/2.3.7/lib/ruby/gems/2.3.0/gems/clearance-1.17.0/app/views/sessions/_form.html.erb (2.9ms)
+  Rendered /Users/steventat/.rbenv/versions/2.3.7/lib/ruby/gems/2.3.0/gems/clearance-1.17.0/app/views/sessions/new.html.erb within layouts/application (19.2ms)
+Completed 200 OK in 1206ms (Views: 1204.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sign_in" for 127.0.0.1 at 2020-01-25 16:27:16 -0800
+Processing by Clearance::SessionsController#new as HTML
+  Rendering /Users/steventat/.rbenv/versions/2.3.7/lib/ruby/gems/2.3.0/gems/clearance-1.17.0/app/views/sessions/new.html.erb within layouts/application
+  Rendered /Users/steventat/.rbenv/versions/2.3.7/lib/ruby/gems/2.3.0/gems/clearance-1.17.0/app/views/sessions/_form.html.erb (2.6ms)
+  Rendered /Users/steventat/.rbenv/versions/2.3.7/lib/ruby/gems/2.3.0/gems/clearance-1.17.0/app/views/sessions/new.html.erb within layouts/application (17.9ms)
+Completed 200 OK in 386ms (Views: 385.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sign_in" for 127.0.0.1 at 2020-01-25 16:27:17 -0800
+Processing by Clearance::SessionsController#new as HTML
+  Rendering /Users/steventat/.rbenv/versions/2.3.7/lib/ruby/gems/2.3.0/gems/clearance-1.17.0/app/views/sessions/new.html.erb within layouts/application
+  Rendered /Users/steventat/.rbenv/versions/2.3.7/lib/ruby/gems/2.3.0/gems/clearance-1.17.0/app/views/sessions/_form.html.erb (5.2ms)
+  Rendered /Users/steventat/.rbenv/versions/2.3.7/lib/ruby/gems/2.3.0/gems/clearance-1.17.0/app/views/sessions/new.html.erb within layouts/application (15.3ms)
+Completed 200 OK in 327ms (Views: 325.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/session" for 127.0.0.1 at 2020-01-25 16:27:20 -0800
+Processing by Clearance::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"[FILTERED]", "session"=>{"email"=>"", "password"=>"[FILTERED]"}, "commit"=>"Sign in"}
+  [1m[36mUser Load (1.9ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", ""], ["LIMIT", 1]]
+  ↳ /Users/steventat/.rbenv/versions/2.3.7/lib/ruby/gems/2.3.0/gems/activerecord-5.2.4.1/lib/active_record/log_subscriber.rb:98
+  Rendering /Users/steventat/.rbenv/versions/2.3.7/lib/ruby/gems/2.3.0/gems/clearance-1.17.0/app/views/sessions/new.html.erb within layouts/application
+  Rendered /Users/steventat/.rbenv/versions/2.3.7/lib/ruby/gems/2.3.0/gems/clearance-1.17.0/app/views/sessions/_form.html.erb (2.5ms)
+  Rendered /Users/steventat/.rbenv/versions/2.3.7/lib/ruby/gems/2.3.0/gems/clearance-1.17.0/app/views/sessions/new.html.erb within layouts/application (6.8ms)
+Completed 401 Unauthorized in 464ms (Views: 304.2ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/sign_in" for 127.0.0.1 at 2020-01-25 16:27:22 -0800
+Processing by Clearance::SessionsController#new as HTML
+  Rendering /Users/steventat/.rbenv/versions/2.3.7/lib/ruby/gems/2.3.0/gems/clearance-1.17.0/app/views/sessions/new.html.erb within layouts/application
+  Rendered /Users/steventat/.rbenv/versions/2.3.7/lib/ruby/gems/2.3.0/gems/clearance-1.17.0/app/views/sessions/_form.html.erb (1.7ms)
+  Rendered /Users/steventat/.rbenv/versions/2.3.7/lib/ruby/gems/2.3.0/gems/clearance-1.17.0/app/views/sessions/new.html.erb within layouts/application (6.7ms)
+Completed 200 OK in 290ms (Views: 288.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/passwords/new" for 127.0.0.1 at 2020-01-25 16:27:25 -0800
+Processing by Clearance::PasswordsController#new as HTML
+  Rendering /Users/steventat/.rbenv/versions/2.3.7/lib/ruby/gems/2.3.0/gems/clearance-1.17.0/app/views/passwords/new.html.erb within layouts/application
+  Rendered /Users/steventat/.rbenv/versions/2.3.7/lib/ruby/gems/2.3.0/gems/clearance-1.17.0/app/views/passwords/new.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 343ms (Views: 342.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sign_in" for 127.0.0.1 at 2020-01-25 16:27:27 -0800
+Processing by Clearance::SessionsController#new as HTML
+  Rendering /Users/steventat/.rbenv/versions/2.3.7/lib/ruby/gems/2.3.0/gems/clearance-1.17.0/app/views/sessions/new.html.erb within layouts/application
+  Rendered /Users/steventat/.rbenv/versions/2.3.7/lib/ruby/gems/2.3.0/gems/clearance-1.17.0/app/views/sessions/_form.html.erb (2.1ms)
+  Rendered /Users/steventat/.rbenv/versions/2.3.7/lib/ruby/gems/2.3.0/gems/clearance-1.17.0/app/views/sessions/new.html.erb within layouts/application (8.7ms)
+Completed 200 OK in 285ms (Views: 283.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sign_in" for 127.0.0.1 at 2020-01-25 18:21:14 -0800
+Processing by Clearance::SessionsController#new as HTML
+  Rendering /Users/steventat/.rbenv/versions/2.3.7/lib/ruby/gems/2.3.0/gems/clearance-1.17.0/app/views/sessions/new.html.erb within layouts/application
+  Rendered /Users/steventat/.rbenv/versions/2.3.7/lib/ruby/gems/2.3.0/gems/clearance-1.17.0/app/views/sessions/_form.html.erb (11.5ms)
+  Rendered /Users/steventat/.rbenv/versions/2.3.7/lib/ruby/gems/2.3.0/gems/clearance-1.17.0/app/views/sessions/new.html.erb within layouts/application (28.2ms)
+Completed 200 OK in 1006ms (Views: 1001.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sign_in" for 127.0.0.1 at 2020-01-25 18:21:16 -0800
+Processing by Clearance::SessionsController#new as HTML
+  Rendering /Users/steventat/.rbenv/versions/2.3.7/lib/ruby/gems/2.3.0/gems/clearance-1.17.0/app/views/sessions/new.html.erb within layouts/application
+  Rendered /Users/steventat/.rbenv/versions/2.3.7/lib/ruby/gems/2.3.0/gems/clearance-1.17.0/app/views/sessions/_form.html.erb (3.5ms)
+  Rendered /Users/steventat/.rbenv/versions/2.3.7/lib/ruby/gems/2.3.0/gems/clearance-1.17.0/app/views/sessions/new.html.erb within layouts/application (14.2ms)
+Completed 200 OK in 349ms (Views: 347.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sign_in" for 127.0.0.1 at 2020-01-25 18:21:17 -0800
+Processing by Clearance::SessionsController#new as HTML
+  Rendering /Users/steventat/.rbenv/versions/2.3.7/lib/ruby/gems/2.3.0/gems/clearance-1.17.0/app/views/sessions/new.html.erb within layouts/application
+  Rendered /Users/steventat/.rbenv/versions/2.3.7/lib/ruby/gems/2.3.0/gems/clearance-1.17.0/app/views/sessions/_form.html.erb (3.9ms)
+  Rendered /Users/steventat/.rbenv/versions/2.3.7/lib/ruby/gems/2.3.0/gems/clearance-1.17.0/app/views/sessions/new.html.erb within layouts/application (13.2ms)
+Completed 200 OK in 354ms (Views: 352.3ms | ActiveRecord: 0.0ms)
+
+
