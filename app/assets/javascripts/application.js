@@ -21,3 +21,11 @@
 //= require jquery3
 //= require popper
 //= require bootstrap-sprockets
+
+Rails.ajax({
+    url: "/tokens",
+    type: "POST",
+    success: function(data) {
+        console.log(data);
+    }
+});

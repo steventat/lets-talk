@@ -61,6 +61,12 @@ group :development do
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
+
+  # Used to load .env files into rails app
+  gem 'dotenv-rails'
+
+  # Used to generate twilio tokens for chat instance
+  gem 'twilio-ruby'
 end
 
 group :test do
