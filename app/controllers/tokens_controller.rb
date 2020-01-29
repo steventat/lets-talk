@@ -1,5 +1,5 @@
 class TokensController < ApplicationController
-  #Requires the user to be logged in before creating token
+  # Requires the user to be logged in before creating token
   before_action :require_login
 
   def create

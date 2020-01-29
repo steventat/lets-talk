@@ -48,6 +48,9 @@ gem 'bourbon', '~> 5.0'
 # Adds Clearance installer
 gem 'clearance'
 
+# Used to generate twilio tokens for chat instance
+gem 'twilio-ruby'
+
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
@@ -64,9 +67,6 @@ group :development do
 
   # Used to load .env files into rails app
   gem 'dotenv-rails'
-
-  # Used to generate twilio tokens for chat instance
-  gem 'twilio-ruby'
 end
 
 group :test do
