@@ -49,7 +49,10 @@ gem 'bourbon', '~> 5.0'
 gem 'clearance'
 
 # Used to generate twilio tokens for chat instance
-gem 'twilio-ruby'
+gem 'twilio-ruby', '~> 5.31.3'
+
+# JWT debugger to test Twilio tokens
+gem 'jwt'
 
 
 group :development, :test do

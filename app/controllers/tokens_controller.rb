@@ -1,3 +1,4 @@
+require 'twilio-ruby'
 class TokensController < ApplicationController
   # Requires the user to be logged in before creating token
   before_action :require_login
