@@ -22,30 +22,8 @@
 //= require popper
 //= require bootstrap-sprockets
 
-Rails.ajax({
-    url: "/tokens",
-    type: "POST",
-    success: function(data) {
-        Twilio.Chat.Client
-            .create(data.token)
-            .then(function(chatClient) {
-                chatClient.getChannelByUniqueName("general")
-                    .then(function(channel){
-                        // general channel exists
-                    })
-                    .catch(function(){
-                        // general channel does not exist
-                        chatClient.createChannel({
-                            uniqueName: "general",
-                            friendlyName: "General Chat Channel"
-                        }).then(function(channel) {
-                            if (channel.state.status !== "joined") {
-                                channel.join().then(function(channel) {
-                                    console.log("Joined General Channel");
-                                })
-                            }
-                        });
-                    })
-            });
+document.addEventListener("DOMContentLoaded", () => {
+    if (document.querySelector(".chat")) {
+        window.chat = new Chat();
     }
 });

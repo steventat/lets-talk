@@ -3,6 +3,8 @@
 
 This is a messaging application by Steven Tat.
 
+Following the instructions below to prepare your environment to host and run the Chat Application.
+
 ## Getting started
 
 To get started with the app, first clone the repo and `cd` into the directory:
