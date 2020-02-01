@@ -12,7 +12,7 @@ Use rbenv to change the local and global versions of Ruby.
 Add Ruby to your PATH.
 Add Bootstrap to Gemfile
 
-Bundle install after adding to Gemfile
+Bundle install after adding to Gemfile.
 
 ## Getting started
 
