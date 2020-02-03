@@ -1,25 +1,30 @@
 # lets-talk
 
 
-This is a messaging application by Steven Tat.
+By Steven Tat.
 
-Following the instructions below to prepare your environment to host and run the Chat Application.
+Lets-Talk is a instant chat messaging application designed to be a simple chat that you can use for your own
+person usage. 
 
-Make sure that your Ruby version is 2.3.7 and Rails version is 6.2.2. 
+##Prepare your environment
+Follow the instructions below to prepare your environment to host and run the Chat Application.
+
+Make sure that your Ruby version is 2.3.7 and Rails version is 6.2.2.
+
 You also need to install node.js and yarn.
-Install rbenv in order to manage and install different Ruby version. 
-Use rbenv to change the local and global versions of Ruby.
-Add Ruby to your PATH.
-Add Bootstrap to Gemfile
 
-Bundle install after adding to Gemfile.
+Install rbenv in order to manage and install different Ruby version.
+
+Use rbenv to change the local and global versions of Ruby.
+
+Add Ruby to your PATH.
 
 ## Getting started
 
 To get started with the app, first clone the repo and `cd` into the directory:
 
 ```
-$ git clone https://github.com/steventat/lets-talk.git 
+$ git clone https://github.com/steventat/lets-talk.git
 $ cd lets-talk
 ```
 
