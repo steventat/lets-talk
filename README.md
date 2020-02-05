@@ -9,7 +9,16 @@ person usage.
 ##Prepare your environment
 Follow the instructions below to prepare your environment to host and run the Chat Application.
 
-Make sure that your Ruby version is 2.3.7 and Rails version is 6.2.2.
+Make sure that your Ruby version is 2.3.7
+```
+$ ruby -v
+ruby 2.3.7
+```
+and Rails version is at least 5.2.4.1
+```
+$ rails -v
+Rails 5.2.4.1
+```
 
 You also need to install node.js and yarn.
 
