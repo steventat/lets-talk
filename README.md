@@ -14,7 +14,29 @@ Make sure that your Ruby version is 2.3.7
 $ ruby -v
 ruby 2.3.7
 ```
-and Rails version is at least 5.2.4.1
+Rails requires Ruby version 2.5.0 or later. If the version number returned is less than that number, you'll need to install a fresh copy of Ruby.
+
+
+To quickly install Ruby and Ruby on Rails on your system in Windows, you can use Rails Installer. For more installation methods for most Operating Systems take a look at ruby-lang.org.
+
+If you are working on Windows, you should also install the Ruby Installer Development Kit.
+
+You will also need an installation of the SQLite3 database. Many popular UNIX-like OSes ship with an acceptable version of SQLite3. On Windows, if you installed Rails through Rails Installer, you already have SQLite installed. Others can find installation instructions at the SQLite3 website. Verify that it is correctly installed and in your PATH:
+
+Make sure that SQLite is installed
+
+```
+$ sqlite3 --version 
+3.19.3
+```
+
+To install Rails, use the gem install command provided by RubyGems:
+
+```
+$ gem install rails
+```
+
+Make sure that Rails version is at least 5.2.4.1 before proceeding
 ```
 $ rails -v
 Rails 5.2.4.1
