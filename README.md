@@ -91,4 +91,4 @@ $ rails server
 
 ## Help page
 
-For general help on the Rails Tutorial, see the [Rails Tutorial Help page](https://www.railstutorial.org/help).
+For more help with installing Rails, check out the tutorial.(https://guides.rubyonrails.org/getting_started.html)
