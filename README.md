@@ -42,11 +42,13 @@ $ rails -v
 Rails 5.2.4.1
 ```
 
-You also need to install node.js and yarn.
+You also need to install yarn to install JavaScript dependencies to use Bootstrap.
+https://classic.yarnpkg.com/en/docs/install/#mac-stable
 
-Install rbenv in order to manage and install different Ruby version.
+Installing rbenv will help to manage and install different Ruby versions.
+https://github.com/rbenv/rbenv
 
-Use rbenv to change the local and global versions of Ruby.
+You can use rbenv to change the local and global versions of Ruby.
 
 Add Ruby to your PATH.
 
@@ -76,6 +78,21 @@ Next, migrate the database:
 ```
 $ rails db:migrate
 ```
+
+This project requires an instance of Twilio Programmable Chat to chat between users. A Twilio account is required to create an instance of the Programmable Chat.
+If you don't yet have a Twilio account, you can create one for free. Once you're logged into your account, navigate to the Programmable Chat Dashboard and create a new chat service
+
+The Rails application will need access to the Twilio chat service ID and a few other credentials. 
+Create a new .env file to store them now.
+```
+# ./.env
+
+TWILIO_ACCOUNT_SID=your_account_sid
+TWILIO_API_KEY=your_api_key
+TWILIO_API_SECRET=your_api_secret
+TWILIO_CHAT_SERVICE_SID=your_chat_service_sid
+```
+
 
 Finally, run the test suite to verify that everything is working correctly:
 
