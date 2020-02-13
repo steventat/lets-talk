@@ -6,6 +6,8 @@ By Steven Tat.
 Lets-Talk is a instant chat messaging application designed to be a simple chat that you can use for your own
 person usage. 
 
+Lets-Talk uses Twilio chat instance to communicate between local servers. Clearance is used for security.
+
 ##Prepare your environment
 Follow the instructions below to prepare your environment to host and run the Chat Application.
 
